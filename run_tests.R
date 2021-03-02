@@ -8,5 +8,5 @@ test_that("Application works", {
   # on a Mac, and they will differ from screenshots taken on the CI platform,
   # which runs on Linux.
   
-  expect_pass(testApp(".", compareImages = FALSE))
+  expect_pass(testApp("tests/."))
 })
