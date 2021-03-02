@@ -1,5 +1,6 @@
 library(testthat)
 library(shinytest)
+
 # library(RSelenium)
 
 test_that("Application works", {
